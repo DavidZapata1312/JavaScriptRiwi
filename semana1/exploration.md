@@ -38,4 +38,15 @@ las interacciones del usuario con su entorno (la página) como los clics, los sc
 ```js
 let nombre = "david";
 console.log(`Hola, ${nombre}`);
+let numeroEntero = 10;
+let numeroDecimal = 3.14;
+let texto = "Hola mundo";
+
+
+### Numeros
+
+console.log(numeroEntero);
+console.log(numeroDecimal);
+console.log(texto);
+
 
