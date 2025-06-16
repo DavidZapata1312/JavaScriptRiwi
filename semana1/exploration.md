@@ -79,3 +79,95 @@ console.log(valorNulo);
 console.log(esVerdadero);
 ```
 
+## Ejemplos de interacción con el usuario
+
+### 3.1 Solicitar edad con prompt
+
+```js
+let edad = prompt("¿Cuál es tu edad?");
+console.log(`Tienes ${edad} años`);
+```
+
+### 3.2 Mostrar mensaje de bienvenida con alert
+
+```js
+alert("¡Bienvenido/a a nuestra página!");
+```
+
+### 3.3 Confirmar acción con confirm
+
+```js
+let deseaContinuar = confirm("¿Deseas continuar?");
+console.log(deseaContinuar);
+```
+
+## Parte 4: Operaciones y Comparaciones
+
+### 4.1 Operaciones matemáticas básicas
+
+```js
+let num1 = 10;
+let num2 = 3;
+
+console.log("Suma:", num1 + num2);
+console.log("Resta:", num1 - num2);
+console.log("Multiplicación:", num1 * num2);
+console.log("División:", num1 / num2);
+console.log("Módulo:", num1 % num2);
+```
+
+### 4.2 Concatenación de cadenas
+
+```js
+let saludo = "Hola";
+let nombre = "David";
+
+let mensaje = saludo + " " + nombre;
+console.log(mensaje);
+```
+
+### 4.3 Comparaciones
+
+```js
+console.log(5 == "5");       // true (comparación débil)
+console.log(5 === "5");      // false (comparación estricta)
+console.log(true && false);  // false
+console.log(false || true);  // true
+console.log(!true);          // false
+```
+
+## Parte 5: Condicionales
+
+### 5.1 Comparar número con 10
+
+```js
+let numero = prompt("Ingresa un número:");
+
+if (numero > 10) {
+    console.log("El número es mayor que 10");
+} else if (numero < 10) {
+    console.log("El número es menor que 10");
+} else {
+    console.log("El número es igual a 10");
+}
+```
+
+### 5.2 Comparar nombre de usuario
+
+```js
+let usuario = prompt("¿Cuál es tu nombre?");
+
+if (usuario === "Admin") {
+    console.log("¡Bienvenido, administrador!");
+} else {
+    console.log(`Hola, ${usuario}`);
+}
+```
+
+### 5.3 Operador ternario para par o impar
+
+```js
+let numeroIngresado = prompt("Ingresa un número:");
+let resultado = (numeroIngresado % 2 === 0) ? "Es par" : "Es impar";
+console.log(resultado);
+```
