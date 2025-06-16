@@ -33,20 +33,49 @@ las interacciones del usuario con su entorno (la página) como los clics, los sc
 
 ## Ejemplos de las variables en JavaScript
 
-### string
+### 2.1 Variable tipo string
 
 ```js
 let nombre = "david";
 console.log(`Hola, ${nombre}`);
+```
+
+### 2.2 Variables con diferentes tipos de datos
+
+```js
 let numeroEntero = 10;
 let numeroDecimal = 3.14;
 let texto = "Hola mundo";
 
-
-### Numeros
-
 console.log(numeroEntero);
 console.log(numeroDecimal);
 console.log(texto);
+```
 
+### 2.3 Constante PI y prueba de reasignación
+
+```js
+const PI = 3.1416;
+console.log(PI);
+
+// Intentar cambiar su valor (esto generará un error)
+// PI = 3.15; // ❌ Error: Assignment to constant variable
+```
+
+### 2.4 Variable sin valor asignado
+
+```js
+let sinValor;
+console.log(sinValor); // undefined
+```
+
+### 2.5 Valores null y booleanos
+
+```js
+let valorNulo = null;
+let esVerdadero = true;
+
+console.log(valorNulo);
+console.log(esVerdadero);
+```
 
