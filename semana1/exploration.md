@@ -1,6 +1,8 @@
-<h1>¿Que es JavaScript?</h1>
+<h1>Explorando JavaScript</h1>
 
-<h2>¿Que es JS y que lo diferencia de HTML y CSS?</h2>
+
+<h2>¿Que es JavaScript?<h2>
+<h3>¿Que es JS y que lo diferencia de HTML y CSS?</h3>
 <p aling="left">JavaScript es un lenguaje altamente tipado, enfocado a las interacciones de la paginas, tanto para el
     usuario como para el servidor.
     Con esto, podemos entender que con JavaScript podemos, desde crear un menu desplegable hasta almacenar la
@@ -9,7 +11,7 @@
     permitiendo esto una ampplia gama de funciones
 </p>
 
-<h2>Algunas de las caracteristicas de JavaScript son:</h2>
+<h3>Algunas de las caracteristicas de JavaScript son:</h3>
 <ol>
     <li>Simplicidad: Posee una estructura sencilla que lo vuelve más fácil de aprender e implementar.</li>
     <li>Carga del servidor: La validación de datos puede realizarse a través del navegador web y las actualizaciones
@@ -22,8 +24,14 @@
     </li>
 </ol>
 
-<h2>JavaScript: Interpretado y basado en eventos</h2>
+<h3>JavaScript: Interpretado y basado en eventos</h3>
 <p aling="left">JavaScript es un lenguaje interpretado, lo que significa que el código se ejecuta línea por línea, sin
     necesidad de ser compilado previamente. Esto, debido a que se ejecuta por el navegador. A su vez, gracias a su
     ejecucion en el navegador, detecta las interacciones del usuario con su entorno (La pagina) como los clics, los
     scrolls o las pulsaciones de teclado.</p>
+
+<h2>Ejemplos de las variables en JavaScript</h2>
+<h3>string</h3>
+            ** let nombre = "david";
+                console.log(`Hola, ${nombre}`);
+
