@@ -243,23 +243,33 @@ Esto asegura que el DOM esté cargado antes de ejecutar el JavaScript.
 │
 
 ├── exploration.html
+
 ├── exploration.js
 
 │
+
 ├── ciclos.html
+
 ├── ciclos.js
+
 │
 
 ├── arrays.html
+
 ├── arrays.js
+
 │
 
 ├── logica.html
+
 ├── logica.js
+
 │
 
 ├── objetos.html
+
 ├── objetos.js
+
 │
 
 └── exploration.md (este archivo)
