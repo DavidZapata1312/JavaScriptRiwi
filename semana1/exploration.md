@@ -172,9 +172,9 @@ let resultado = (numeroIngresado % 2 === 0) ? "Es par" : "Es impar";
 console.log(resultado);
 ```
 ### Practica sencilla para integrar JavaScript y Html, y ver sus primeras funciones.
-    Estructura de archivos
-    Este proyecto incluye dos archivos principales que deben estar ubicados en la misma carpeta:
+ Estructura de archivos
+Este proyecto incluye dos archivos principales que deben estar ubicados en la misma carpeta:
 
-    index.html: Contiene la estructura básica de una pagina, mostrando los cortos pasos a seguir para ver los mensajes en consola y enlaza el script externo.
+ index.html: Contiene la estructura básica de una pagina, mostrando los cortos pasos a seguir para ver los mensajes en consola y enlaza el script externo.
 
-    exploration.js: Contiene todo el codigo dedicado a los mensajes de ejemplo de la consola, junto con una practica de promp (Para pedir el ingreso de datos a la misma)
+ exploration.js: Contiene todo el codigo dedicado a los mensajes de ejemplo de la consola, junto con una practica de promp (Para pedir el ingreso de datos a la misma)
