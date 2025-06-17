@@ -251,9 +251,7 @@ Esto asegura que el DOM esté cargado antes de ejecutar el JavaScript.
 ├── ciclos.html
 
 ├── ciclos.js
-
 │
-
 ├── arrays.html
 
 ├── arrays.js
