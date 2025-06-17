@@ -11,3 +11,21 @@ let palabra2 = "gato";
 for (let indice in palabra2) {
   console.log(`Índice: ${indice}, Letra: ${palabra2[indice]}`);
 }
+
+let nombres = ["Ana", "Luis", "Pedro", "María"];
+
+for (let nombre of nombres) {
+  console.log(`Hola, ${nombre}`);
+}
+
+let colores = ["rojo", "verde", "azul", "amarillo"];
+
+for (let indice in colores) {
+  console.log(`Índice: ${indice}`);
+}
+
+let numeros = [10, 20, 30, 40];
+
+for (let i in numeros) {
+  console.log(`Índice: ${i}, Valor: ${numeros[i]}`);
+}
