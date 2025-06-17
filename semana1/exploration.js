@@ -25,4 +25,3 @@ let ciudad = prompt("¿En qué ciudad vives?");
 
 // Mostrar mensaje personalizado
 console.log(`Hola ${nombre}, tienes ${edad} años y vives en ${ciudad}.`);
-    
