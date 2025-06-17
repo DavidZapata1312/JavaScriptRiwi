@@ -178,3 +178,98 @@ Este proyecto incluye dos archivos principales que deben estar ubicados en la mi
  index.html: Contiene la estructura básica de una pagina, mostrando los cortos pasos a seguir para ver los mensajes en consola y enlaza el script externo.
 
  exploration.js: Contiene todo el codigo dedicado a los mensajes de ejemplo de la consola, junto con una practica de promp (Para pedir el ingreso de datos a la misma)
+
+ ### 🔹 `ciclos.html` + `ciclos.js`
+
+Aquí se exploran los **bucles o ciclos** en JavaScript:
+
+- `for`
+- `while`
+- `do...while`
+
+Se utilizan para repetir acciones múltiples veces de forma controlada.  
+También se ven ejemplos con `break` y `continue` para modificar el flujo del ciclo.
+
+---
+
+### 🔹 `arrays.html` + `arrays.js`
+
+Introduce el uso de **arreglos o listas** en JavaScript:
+
+- Crear arrays
+- Acceder a elementos por índice
+- Métodos como `.push()`, `.pop()`, `.shift()`, `.unshift()`, `.length`
+- Recorrer arrays con ciclos (`for`, `for...of`, `forEach`)
+
+Muy útil para trabajar con colecciones de datos.
+
+---
+
+### 🔹 `logica.html` + `logica.js`
+
+Explica en detalle el uso de **operadores lógicos y estructuras condicionales**:
+
+- `if`, `else`, `else if`
+- Operadores: `&&`, `||`, `!`
+- Ternario
+- Anidación de condiciones
+- Casos comunes para controlar el flujo de un programa
+
+Ideal para entender cómo tomar decisiones dentro del código.
+
+---
+
+### 🔹 `objetos.html` + `objetos.js`
+
+En este archivo se empieza a trabajar con **objetos**, que son estructuras de datos fundamentales en JavaScript:
+
+- Crear un objeto con propiedades
+- Acceder y modificar propiedades
+- Añadir nuevas propiedades
+- Recorrer un objeto con `for...in`
+
+Los objetos permiten representar elementos del mundo real en el código y son la base para estructuras más avanzadas como clases y JSON.
+
+---
+
+## Estructura general de los archivos
+
+Todos los archivos `.html` enlazan a su respectivo `.js` usando la etiqueta `<script src="nombre.js"></script>` al final del body.  
+Esto asegura que el DOM esté cargado antes de ejecutar el JavaScript.
+
+📁 **Carpeta actual contiene**:
+/semana-1
+
+│
+
+├── exploration.html
+
+├── exploration.js
+
+│
+
+├── ciclos.html
+
+├── ciclos.js
+
+│
+
+├── arrays.html
+
+├── arrays.js
+
+│
+
+├── logica.html
+
+├── logica.js
+
+│
+
+├── objetos.html
+
+├── objetos.js
+
+│
+
+└── exploration.md (este archivo)
