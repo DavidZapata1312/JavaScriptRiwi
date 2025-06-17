@@ -15,6 +15,7 @@ for (let i = 0; i < 1000000; i++) {
 }
 console.timeEnd("Tiempo de ejecución");
 
+
 // --- NUEVO EJERCICIO ---
 
 // Solicitar datos al usuario
@@ -24,3 +25,4 @@ let ciudad = prompt("¿En qué ciudad vives?");
 
 // Mostrar mensaje personalizado
 console.log(`Hola ${nombre}, tienes ${edad} años y vives en ${ciudad}.`);
+    
