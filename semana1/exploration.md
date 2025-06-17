@@ -265,11 +265,7 @@ Esto asegura que el DOM esté cargado antes de ejecutar el JavaScript.
 ├── logica.js
 
 │
-
 ├── objetos.html
-
 ├── objetos.js
-
 │
-
 └── exploration.md (este archivo)
