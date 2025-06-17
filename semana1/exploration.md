@@ -1,6 +1,6 @@
 # Explorando JavaScript
 
-## ¿Qué es JavaScript?
+# ¿Qué es JavaScript?
 
 ### ¿Qué es JS y qué lo diferencia de HTML y CSS?
 
