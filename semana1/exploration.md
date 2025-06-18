@@ -238,7 +238,7 @@ Todos los archivos `.html` enlazan a su respectivo `.js` usando la etiqueta `<sc
 Esto asegura que el DOM esté cargado antes de ejecutar el JavaScript.
 
 📁 **Carpeta actual contiene**:
-``
+```
 /semana-1
 │
 ├── exploration.html
@@ -257,4 +257,4 @@ Esto asegura que el DOM esté cargado antes de ejecutar el JavaScript.
 ├── objetos.js
 │
 └── exploration.md (este archivo)
-``
+```
