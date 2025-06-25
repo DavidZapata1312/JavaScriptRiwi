@@ -37,3 +37,5 @@ alert(`${gradosCelsius}°C son ${fahrenheit.toFixed(2)}°F`);
 console.log(`${gradosCelsius}°C son ${fahrenheit.toFixed(2)}°F`);
 
 
+
+

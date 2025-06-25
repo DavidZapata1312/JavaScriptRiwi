@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>App de Colores, Personas, Libros y Tareas</title>
+</head>
+<body>
+  <h2>Agregar color</h2>
+  <form id="addColor">
+    <input type="text" id="newColor" placeholder="Escribe un color">
+    <button type="submit">Agregar</button>
+  </form>
+
+  <h2>Lista de colores</h2>
+  <div id="colors"></div>
+
+  <h2>Frases motivadoras</h2>
+  <div id="phrase"></div>
+
+  <h2>Números</h2>
+  <div id="numbers"></div>
+
+  <h2>Agregar persona</h2>
+  <form id="addPerson">
+    <input type="text" id="nombrePersona" placeholder="Nombre">
+    <input type="number" id="edadPersona" placeholder="Edad">
+    <input type="text" id="ocupacionPersona" placeholder="Ocupación">
+    <button type="submit">Agregar Persona</button>
+  </form>
+
+  <h2>Personas</h2>
+  <div id="person"></div>
+
+  <h2>Canciones</h2>
+  <div id="songs"></div>
+
+  <h2>Usuarios</h2>
+  <div id="usuarios"></div>
+
+  <h2>Lista de Libros</h2>
+  <ul id="libros"></ul>
+
+  <h2>Tareas</h2>
+  <h3>Agregar nueva tarea</h3>
+  <form id="addTask">
+    <input type="text" id="descripcionTarea" placeholder="Descripción de la tarea">
+    <label>
+      <input type="checkbox" id="tareaCompletada"> Completada
+    </label>
+    <button type="submit">Agregar Tarea</button>
+  </form>
+
+  <div id="tareas"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
