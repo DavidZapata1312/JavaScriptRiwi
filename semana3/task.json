@@ -1,0 +1,25 @@
+{
+  "tareas": [
+    {
+      "id": "1",
+      "title": "Estudiar Fetch API",
+      "description": "Aprender a consumir APIs con JavaScript",
+      "completed": true,
+      "completada": true
+    },
+    {
+      "id": "a9bf",
+      "description": "arroz",
+      "completed": true
+    },
+    {
+      "id": "0498",
+      "description": "pollo",
+      "completed": true
+    },
+    {
+      "id": "cdb8",
+      "completed": true
+    }
+  ]
+}
